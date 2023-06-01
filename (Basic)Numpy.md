@@ -20,7 +20,7 @@ np.array([1, 2, 3, 4], dtype='float’)
 # array([1., 2., 3., 4.])
 ```
 ### 배열 데이터 타입 dtype
-#### List와 다르게 array는 단일타입 구성
++ List와 다르게 array는 단일타입 구성
 ```
 arr = np.array([1, 2, 3, 4], dtype=float)
 arr # array([1., 2., 3., 4.])
