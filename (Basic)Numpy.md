@@ -54,3 +54,14 @@ np.random.randint(0, 10, (2, 2))
 # array([[3, 9],
 [3, 2]]
 ```
+### 배열의 기초
+```python
+x2 = np.random.randint(10, size=(3, 4))
+# array([[2, 2, 9, 0],
+[4, 2, 1, 0],
+[1, 8, 7, 3]])
+x2.ndim # 2
+x2.shape # (3, 4)
+x2.size # 12
+x2.dtype # dtype(‘int64’)
+```
