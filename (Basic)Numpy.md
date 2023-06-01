@@ -1,13 +1,13 @@
 ## Numpy
 ### 배열 만들기
-```
+```python
 list(range(10))
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 import numpy as np
 np.array([1, 2, 3, 4, 5])
 # array([1, 2, 3, 4, 5]
 ```
-```
+```python
 np.array([1, 2, 3, 4, 5])
 # array([1, 2, 3, 4, 5])
 np.array([3, 1.4, 2, 3, 4])
@@ -21,7 +21,7 @@ np.array([1, 2, 3, 4], dtype='float’)
 ```
 ### 배열 데이터 타입 dtype
 + List와 다르게 array는 단일타입 구성
-```
+```python
 arr = np.array([1, 2, 3, 4], dtype=float)
 arr # array([1., 2., 3., 4.])
 arr.dtype
