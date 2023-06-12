@@ -1,4 +1,4 @@
-## Numpy
+## Numpy_1
 ### 배열 만들기
 ```python
 list(range(10))
