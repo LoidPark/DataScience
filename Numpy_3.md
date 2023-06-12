@@ -50,7 +50,7 @@ np.sum(x, axis=0)
 np.sum(x, axis=1)
 # array([ 6, 22])
 ```
-+ 마스킹 연산
+### 마스킹 연산
 ```python
 x = np.arange(5)
 # array([0, 1, 2, 3, 4])
